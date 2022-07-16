@@ -14,7 +14,6 @@ function sumArray(array) {
   return result;
 }
 
-
 // second way
 // function sumArray(array) {
 //   if(!array) return 0
