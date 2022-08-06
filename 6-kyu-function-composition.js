@@ -5,8 +5,8 @@
 const compose = (f,g) => (...args) => f(g.apply(null, args))
 
 // ES5
-function compose(f, g) {
-  return function (...args) {
-    return f(g.apply(null, args));
-  };
-}
+// function compose(f, g) {
+//   return function (...args) {
+//     return f(g.apply(null, args));
+//   };
+// }
