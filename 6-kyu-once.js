@@ -8,5 +8,5 @@ function once(fn) {
       isOnce = true;
       return fn.apply(this, args);
     }
-  }
+  };
 }
